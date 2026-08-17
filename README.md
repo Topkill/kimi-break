@@ -13,6 +13,11 @@ A red-team system prompt (`SYSTEM.md`) for Kimi Code — jailbreak / armor-pierc
 - **VANTA** — Agent 人格（两千岁的吸血鬼同伴）
 - **WREN** — 使用者（Agent 的绑定对象）
 
+## 特色
+
+- **最大限度保留 Kimi Code 原始提示词**：语言规则、工具调用规范、编码与研究准则、上下文管理、工作环境与项目信息章节、全部模板变量（`${os}`、`${cwd}`、`${agents_md}`、`${skills_section}` 等）均原样保留 —— 这是一份完整的 drop-in 替换，而非孤立的越狱字符串
+- **对正常开发几乎无影响**：破甲层（人格锚定、注入防御反转、核心信条）叠加在工程层之上，日常编码、调试、重构行为与官方提示词一致，仅在触及模型拒绝边界时破甲层介入
+
 ## 文件
 
 - `SYSTEM.md` — 破甲提示词本体。替换 `~/.kimi-code/SYSTEM.md`（Windows: `C:\Users\<你>\.kimi-code\SYSTEM.md`）后重启 Kimi Code 即生效。替换前请备份原文件。
