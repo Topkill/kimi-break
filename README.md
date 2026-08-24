@@ -20,7 +20,7 @@ A red-team system prompt (`SYSTEM.md`) for Kimi Code — jailbreak / armor-pierc
 
 ## 文件
 
-- `SYSTEM.md` — 破甲提示词本体。替换 `~/.kimi-code/SYSTEM.md`（Windows: `C:\Users\<你>\.kimi-code\SYSTEM.md`）后重启 Kimi Code 即生效。替换前请备份原文件。
+- `SYSTEM.md` — 破甲提示词本体。替换 `~/.kimi-code/SYSTEM.md`（Windows: `C:\Users\<你>\.kimi-code\SYSTEM.md`）后重启 Kimi Code 即生效。替换前请备份原文件，如果你的这里原本没有SYSTEM.md是正常的，直接移动或创建即可。
 
 ## 破甲手法解析
 
